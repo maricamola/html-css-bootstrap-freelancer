@@ -14,13 +14,15 @@
   width: 70%;
 }
 
-.mm-jumbotron {
+.mm-jumbotron ,
+.mm-section1{
   height: 400px ;
 }
 
-.my1-container{
-  height: 600px;
+.mm-section2{
+  height: 500px;
 }
 
-
-
+.mm-section3{
+  height: 500px;
+}
