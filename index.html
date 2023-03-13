@@ -4,35 +4,71 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css' integrity='sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==' crossorigin='anonymous'/>
   <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+
+  <!-- Bootstrap Icons CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/bootstrap-icons.min.css">
+
   <link rel="stylesheet" href="style.css">
   <title>Bootstrap Freelancer</title>
 </head>
 <body>
   
     <!--HEADER-->
-  <header class="bg-secondary">
-    <div class="container w-70 debug text-center">
+  <header>
+    <div class="container w-70 debug">
       <div class="row">
-        <div class="col-11 col-md-6 debug d-flex align-items-center justify-content-center">Logo</div>
+        <div class="col-11 col-md-6 text-uppercase debug"><h3>start bootstrap</h3></div>
 
-        <div class="debug col-1 d-md-none">Y</div>
+        <div class="debug col-1 d-md-none text-end">
+          <i class="fa-solid fa-square-caret-down"></i>
+        </div>
 
-        <div class="debug d-none d-md-block col-6 ">Menu</div>
+        <div class="debug d-none d-md-block col-6 text-end">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="#">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </header>
 
     <!--JUMBOTRON-->
-  <div class="mm-jumbotron bg-success bg-gradient">
+  <div class="mm-jumbotron pb-4">
     <div class="debug w-70 container-fluid h-100">
       <div class="row flex-column justify-content-center align-items-center h-100">
 
-        <div class="col-sm-6 col-6 debug2 text-center">Immagine</div>
+        <div class="col-sm-6 col-6 debug2 text-center"><img src="img/avatar.svg" alt="avatar"></div>
 
         <div class="col-sm-6 col-6 debug text-center text-uppercase"><h3>start bootstrap</h3></div>
-        <div class="col-sm-6 col-6 debug text-center">Icona</div>
-        <div class="col-sm-6 col-6 debug text-center">Menu</div>
+
+        <div class="col-sm-6 col-6 debug text-center d-flex justify-content-center align-items-center">
+          <hr> <i class="fa-solid fa-star"></i> <hr>
+        </div>
+
+        <div class="col-sm-6 col-6 debug text-center">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#">GRAPHIC ARTIST -</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">WEB DESIGNER -</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ILLUSTRATOR</a>
+            </li>
+          </ul>
+        </div>
 
       </div>
     </div>
@@ -41,28 +77,50 @@
 
   <main>
     <!--PORTFOLIO-->
-  <div class="mm-section1">
-  <div class="my1-container debug w-70 container-fluid h-100">
+  <div class="mm-section1 mt-4">
+
+    <div class="debug w-70 container-fluid h-100">
+      <div class="row flex-column justify-content-center align-items-center h-100">
+
+        <div class="col-sm-6 col-6 debug text-center text-uppercase text-dark"><h4>portfolio</h4></div>
+
+        <div class="col-sm-6 col-6 debug text-center d-flex justify-content-center align-items-center text-dark">
+          <hr> <i class="fa-solid fa-star"></i> <hr>
+        </div>
+
+      </div>  
+    </div>
+
+    <div class="my1-container debug w-70 container-fluid ">
     
-    <div class="row justify-content-center align-items-center h-100">
-          <div class="col-sm-6 col-lg-4 debug text-center">1</div>
-          <div class="col-sm-6 col-lg-4 debug text-center">2</div>
-          <div class="col-sm-6 col-lg-4 debug text-center">3</div>
-          <div class="col-sm-6 col-lg-4 debug text-center">4</div>
-          <div class="col-sm-6 col-lg-4 debug text-center">5</div>
-          <div class="col-sm-6 col-lg-4 debug text-center">6</div>
+      <div class="row justify-content-center align-items-center h-100">
+          <div class="col-sm-6 col-lg-4 debug text-center">
+            <img src="img/cabin.png" alt="cabin">
+          </div>
+          <div class="col-sm-6 col-lg-4 debug text-center"><img src="img/cake.png" alt="cake"></div>
+          <div class="col-sm-6 col-lg-4 debug text-center"><img src="img/circus.png" alt="circus"></div>
+          <div class="col-sm-6 col-lg-4 debug text-center">
+            <img src="img/game.png" alt="game">
+          </div>
+          <div class="col-sm-6 col-lg-4 debug text-center">
+            <img src="img/safe.png" alt="safe">
+          </div>
+          <div class="col-sm-6 col-lg-4 debug text-center">
+            <img src="img/submarine.png" alt="submarine">
+          </div>
+      </div>
     </div>
   </div>
-  </div>
     <!--ABOUT-->
-  <div class="mm-section2 bg-success bg-gradient">
+  <div class="mm-section2 pt-4">
     <div class="my2-container debug w-70 container-fluid h-100">
+
       <div class="row flex-column justify-content-center align-items-center">
-        <div class="col-lg-6 d-inline debug text-center mt-5">
+        <div class="col-lg-6 d-inline debug text-center">
           <h3>About</h3>
         </div>
-        <div class="col-lg-6 d-inline debug text-center">
-          <span>Icona</span>
+        <div class="col-sm-6 col-6 debug text-center d-flex justify-content-center align-items-center">
+          <hr> <i class="fa-solid fa-star"></i> <hr>
         </div>
       </div>
 
@@ -72,7 +130,10 @@
 
         <div class="row justify-content-center      align-items-center h-50">
           <div class="col-lg-6 d-inline debug text-center">
-            <span>Download</span>
+            <button type="button" class="btn ">
+              <i class="fa-solid fa-download"></i>
+              Download
+            </button>
           </div>
         </div>
       </div>
@@ -80,19 +141,46 @@
   </div>
 
     <!--CONTACT ME-->
-  <div class="mm-section3">
-    <div class="my3-container debug w-70 container-fluid h-100">
-      <div class="row flex-column justify-content-center align-items-center h-50">
-        <div class="col-lg-6 d-inline debug text-center mt-1">
-          <h1>Contact me</h1>
-        </div>
-        <div class="col-lg-6 d-inline debug text-center">
-          <span>Icona</span>
-        </div>
-      </div>
+  <div class="mm-section3 pt-4">
+    <div class="debug w-70 container-fluid h-100">
+      <div class="row flex-column justify-content-center align-items-center h-100">
 
+        <div class="col-sm-6 col-6 debug text-center text-uppercase text-dark"><h4>Contact me</h4></div>
+
+        <div class="col-sm-6 col-6 debug text-center d-flex justify-content-center align-items-center text-dark">
+          <hr> <i class="fa-solid fa-star"></i> <hr>
+        </div>
+      </div>  
+    </div>
+
+    <div class="my3-container debug w-70 container-fluid h-100">
       <div class="row justify-content-center align-items-center h-50">
-        
+        <div class="col-6">
+          
+          <form class="ms-form" action="">
+            <div class="mb-3">
+              <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+  
+            <div class="mb-3">
+              
+              <input type="email" class="form-control" id="email" placeholder="Email address">
+            </div>
+  
+            <div class="mb-3">
+              
+              <input type="text" class="form-control" id="telephone" placeholder="Inserisci il tuo numero">
+            </div>
+  
+            <div class="mb-3">
+              
+              <textarea class="form-control" id="textarea" rows="3" placeholder="Inserisci il tuo messaggio"></textarea>
+            </div>
+  
+            <button type="submit" class="btn btn-success">Invia</button>
+          </form>
+
+        </div>
       </div>
     </div>
   </div>
@@ -101,13 +189,27 @@
   </main>
 
   <footer>
-    <div class="f-top bg-dark">
-      <div class="my3-container debug w-70 container-fluid h-100">
+    <div class="f-top m-4">
+      <div class="my3-container debug w-70 container-fluid h-100 align-items-center ">
         <div class="row justify-content-center align-items-center h-100">
 
-          <div class=" col-sm-4 debug text-center text-md-center">Left</div>
-        <div class=" col-sm-4 debug text-center">Center</div>
-        <div class=" col-sm-4 debug text-center text-md-center"> Right</div>
+          <div class=" col-sm-4 debug text-center text-md-center d-flex flex-column">
+            <span class="text-uppercase">location</span>
+            <span>2215 Jonh Daniel Drive Clark, MO 54243</span>
+          </div>
+        <div class=" col-sm-4 debug text-center d-flex flex-column">
+          <span class="text-uppercase">around the web</span>
+          <span>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </span>
+        </div>
+        <div class=" col-sm-4 debug text-center text-md-center d-flex flex-column"> 
+          <span class="text-uppercase">about freelancer</span>
+          <span>Freelance is a free to use, oper source Bootstrap theme created by <span class="text-success">Start Bootstrap</span>.</span>
+        </div>
 
         </div>
       </div>
@@ -115,8 +217,8 @@
 
     <div class="f-down bg-secondary">
       <div class="my3-container debug w-70 container-fluid h-100">
-        <div class="row justify-content-center align-items-center mt-3">
-          <div class="col-12 debug text-center"><span>Copyright</span></div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-12 debug text-center m-3"><span>Copyright © Your website 2019</span></div>
         </div>
       </div>
     </div>

@@ -1,36 +1,101 @@
-.debug{
-  background-color: #db56564b;
-  border: 1px solid black;
-  min-height: 50px;
-}
 
-.debug2{
-  background-color: #db56564b;
-  border: 1px solid black;
-  min-height: 100px;
+body{
+  color: white;
 }
 
 .w-70{
   width: 70%;
 }
 
-.mm-jumbotron ,
-.mm-section1{
-  height: 400px ;
+li a{
+  padding: 5px !important;
 }
 
-.mm-section2{
-  height: 500px;
+.nav a{
+  color: white;
 }
 
-.mm-section3{
-  height: 500px;
+header{
+  background-color: #2C3E50;
 }
 
-.f-top{
-  height: 200px;
+.mm-jumbotron img{
+  max-width:200px;
+}
+
+img{
+  width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.mm-jumbotron,
+.mm-section2 {
+  background-color: #1ABC9C;
+}
+
+hr{
+  width: 15%;
+  border-top: 3px solid white;
+  border-radius: 50px;
+  opacity: 1;
+  margin: 10px;
+}
+
+.mm-section1 hr,
+.mm-section3 hr{
+  border-top: 3px solid black;
+}
+
+.mm-section2 button{
+  background-color: none !important;
+  border: 1px solid white ;
+  color: white;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+.mm-section2 button:hover{
+  border: 1px solid white ;
+}
+
+/*FORM*/
+
+.ms-form input, .ms-form textarea{
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.ms-form input::placeholder, 
+.ms-form textarea::placeholder{
+  color: black;
+}
+
+.ms-form button{
+  background: #1ABC9C;
+  border: none;
+  margin-bottom:20px;
+}
+
+.ms-form input:focus,
+.ms-form textarea:focus{
+  box-shadow: 0 1px 0 0 rgba(13,110,253,.25);
+}
+
+footer{
+  background-color: #3A546D;
+}
+
+.f-top .fa-brands{
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 5px;
+  margin-top: 5px;
 }
 
 .f-down{
-  height: 100px;
+  background-color: #2C3E50;
 }
