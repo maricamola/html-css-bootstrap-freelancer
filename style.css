@@ -27,7 +27,31 @@ header{
 img{
   width: 100%;
   border-radius: 10px;
+}
+
+.mm-section1 img{
+  position: relative;
+}
+
+.mm-section1 img:hover .icon{
+  display: block;
+}
+
+.mm-card{
+  overflow: hidden;
   margin: 20px 0;
+}
+
+.mm-card .icon{
+  background-color: #1abc9c63;
+  opacity: 0;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.mm-card:hover .icon:hover{
+  display: block;
+  opacity: 1;
 }
 
 .mm-jumbotron,
